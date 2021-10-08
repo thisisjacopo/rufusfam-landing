@@ -1,0 +1,511 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 650px) {
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    display: block;
+    align-items: center;
+    background-color: blue;
+  }
+
+  img.centrata {
+    display: block;
+    margin-top: 20px;
+    width: 350px;
+    height: auto;
+  }
+
+  #MACBA {
+    float: left;
+    display: block;
+    width: 45%;
+    height: 450px;
+    resize: none;
+    background-attachment: scroll;
+    color: rgb(250, 250, 250);
+    margin-top: 0px;
+  }
+
+  #MILANO {
+    display: block;
+    width: 45%;
+    color: rgb(250, 250, 250);
+    text-decoration: underline;
+    height: 450px;
+    background-attachment: scroll;
+    resize: none;
+    margin-top: 0px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 650px) {
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  img.centrata {
+    display: block;
+    width: 350px;
+    height: auto;
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .welcome-message {
+    color: rgb(14, 14, 14);
+    font-size: 18px;
+  }
+
+  h4,
+  a,
+  nav {
+    font-family: "montserrat", sans-serif;
+    font-size: 12px;
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  .main-container {
+    width: 95%;
+  }
+  #MACBA {
+    float: left;
+    display: block;
+    width: 45%;
+    height: 450px;
+    resize: none;
+    background-attachment: scroll;
+    color: rgb(250, 250, 250);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 3.5%;
+    margin-right: 3%;
+  }
+
+  #MILANO {
+    float: left;
+    display: block;
+    width: 45%;
+    color: rgb(250, 250, 250);
+    text-decoration: underline;
+    height: 450px;
+    background-attachment: scroll;
+    resize: none;
+    position: relative;
+    margin-top: 0px;
+  }
+
+  .hero-macba {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-milano {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .centerd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 450px;
+    transform: translate(-50%, -50%);
+  }
+
+  /*********************************************************************************/
+  /* SPECIAL                                                             */
+  /*********************************************************************************/
+
+  .description {
+    font-family: "montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .linkshop1,
+  .linkshop2 {
+    font-size: 27px;
+    color: rgb(250, 250, 250);
+    line-height: 400px;
+  }
+
+  /*********************************************************************************/
+  /* FOOTER                                                             */
+  /*********************************************************************************/
+  .division-info-start {
+    padding-top: 55px;
+    border-top: thin;
+    border-top-color: grey;
+  }
+
+  .division-info-end {
+    padding-top: 5px;
+    border-top: thin;
+    border-top-color: grey;
+  }
+
+  .fa-map-marker {
+    margin-right: 10px;
+  }
+
+  .info-macba {
+    float: left;
+    display: block;
+    width: 43%;
+    color: black;
+    font-family: "lato", sans-serif;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .info-milano {
+    float: left;
+    display: block;
+    width: 43%;
+    color: black;
+    font-family: "montserrat", sans-serif;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-left: 7.5%;
+  }
+
+  .social-macba {
+    margin-top: 10px;
+  }
+  .social-milano {
+    margin-top: 10px;
+  }
+
+  .orari {
+    margin-top: 0px;
+    height: 0px;
+    text-align: center;
+    align-items: center;
+    margin-left: 5.5%;
+  }
+
+  div.footer {
+    margin-top: 100px;
+    padding: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1080px) {
+  body,
+  div,
+  ul,
+  img,
+  header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    display: block;
+  }
+
+  header {
+    display: block;
+  }
+
+  body {
+    background: rgb(247, 247, 247);
+    margin: 0 auto;
+  }
+
+  h4,
+  a,
+  nav {
+    font-family: "montserrat", sans-serif;
+    font-size: 12px;
+    color: rgb(14, 14, 14);
+  }
+
+  /*********************************************************************************/
+  /* HEADER                                                                 */
+  /*********************************************************************************/
+
+  img.centrata {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 235px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  h4.welcome-message {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    padding-bottom: 5px;
+  }
+
+  /*********************************************************************************/
+  /* MENU                                                                  */
+  /*********************************************************************************/
+
+  #menu {
+    border-bottom: 1px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  ul.main-nav#menu {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+  }
+  .main-nav {
+    text-align: center;
+    line-height: 1.6em;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+
+  nav#menu li {
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  a,
+  li {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 33px;
+    padding-right: 33px;
+    padding-left: 33px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  a.menu {
+    color: black;
+    padding: 1px;
+    position: relative;
+    display: block;
+    text-decoration: underline;
+  }
+
+  .split2 {
+    margin-left: 2%;
+  }
+  #MACBA {
+    float: left;
+    display: block;
+    width: 45%;
+    height: 450px;
+    resize: none;
+    background-attachment: scroll;
+    color: rgb(250, 250, 250);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-right: 3%;
+  }
+
+  #MACBA:hover.menu {
+    padding: 1px;
+    background-color: rgb(19, 18, 18);
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    display: block;
+  }
+
+  #MILANO {
+    float: left;
+    display: block;
+    width: 45%;
+    color: rgb(250, 250, 250);
+    text-decoration: underline;
+    height: 450px;
+    background-attachment: scroll;
+    resize: none;
+    position: relative;
+    margin-top: 0px;
+  }
+
+  #MILANO:hover.menu {
+    padding: 1px;
+    background-color: rgb(19, 18, 18);
+    text-decoration: underline;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    display: block;
+  }
+
+  .hero-macba {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-milano {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .linkshop2,
+  .linkshop1 {
+    text-align: center;
+    color: rgba(14, 13, 13, 0);
+    font-family: "montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 300px;
+    height: 50px;
+    top: 0px;
+  }
+  .centerd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 450px;
+    transform: translate(-50%, -50%);
+  }
+
+  .linkshop1:hover,
+  .linkshop2:hover {
+    background-color: rgba(25, 25, 25, 0.4);
+    color: rgb(250, 250, 250);
+    font-family: "montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: all;
+    height: 450px;
+    width: auto;
+    line-height: 450px;
+  }
+
+  /*********************************************************************************/
+  /* SPECIAL                                                             */
+  /*********************************************************************************/
+
+  .description {
+    font-family: "montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  /*********************************************************************************/
+  /* FOOTER                                                             */
+  /*********************************************************************************/
+  .division-info-start {
+    padding-top: 55px;
+    border-top: thin;
+    border-top-color: grey;
+  }
+
+  .division-info-end {
+    padding-top: 5px;
+    border-top: thin;
+    border-top-color: grey;
+  }
+
+  .fa-map-marker {
+    margin-right: 10px;
+  }
+
+  .info-macba {
+    float: left;
+    display: block;
+    width: 43%;
+    color: black;
+    font-family: "lato", sans-serif;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .info-milano {
+    float: left;
+    display: block;
+    width: 43%;
+    color: black;
+    font-family: "montserrat", sans-serif;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    margin-left: 7.5%;
+  }
+
+  .social-macba {
+    margin-top: 10px;
+  }
+  .social-milano {
+    margin-top: 10px;
+  }
+
+  .orari {
+    margin-top: 0px;
+    height: 0px;
+    text-align: center;
+    align-items: center;
+    margin-left: 5.5%;
+  }
+
+  div.footer {
+    margin-top: 100px;
+    padding: 20px;
+  }
+}
